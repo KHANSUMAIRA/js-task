@@ -58,11 +58,14 @@
 //      }
 //     }
 //     // TASK 4
-//     UserName= prompt("Enter Your Name");
-// username = UserName.toLowerCase();
-// capitalized = username[0].toUpperCase();
-// x = capitalized + USserName.slice(1);
-// alert(x); 
+function CapitalLetter(){
+    UserName= prompt("Enter Your Name");
+username = UserName.toLowerCase();
+capitalized = username[0].toUpperCase();
+x = capitalized + UserName.slice(1);
+console.log(x); 
+}
+CapitalLetter()
 
 
 //     //TASK 5
@@ -117,72 +120,175 @@
 //  }; 
 
 //TASK 8
-worldCupSquad = ["Shadab Khan", "M.Haris", "Iftikar", "Mohammad Rizwan", "Babar Azam", "Sarfaraz Ahmed", "Faheem Ashraf", "Hassan Ali", "Shaheen Afridi", "Haris Rauf", "Mohammad Hasnain", "Imam ul haq", "M.Nawaz", "Asif Ali", "Imad Wasim"];
-finalplayers = worldCupSquad.slice(4 , 15)
-alert("Final team players for tomorrow's match:" + finalplayers);
+// worldCupSquad = ["Shadab Khan", "M.Haris", "Iftikar", "Mohammad Rizwan", "Babar Azam", "Sarfaraz Ahmed", "Faheem Ashraf", "Hassan Ali", "Shaheen Afridi", "Haris Rauf", "Mohammad Hasnain", "Imam ul haq", "M.Nawaz", "Asif Ali", "Imad Wasim"];
+// finalplayers = worldCupSquad.slice(4 , 15)
+// alert("Final team players for tomorrow's match:" + finalplayers);
+
+// pratice
+
+//  var things = new
+// Array("chair","table","door","apple","wall");
+//  document.write(things.length);
+
+//  var things = new
+// Array("chair","table","door","apple","wall");
+//  things.push('testing');
+
+//  for(var i=0; i<things.length; i++)
+//  { document.write(things[i] + ""); } 
+
+//  var things = new
+// Array("chair","table","door","apple","wall");
+//  things.splice(2);
+
+//  for(var i=0; i<things.length; i++)
+//  { document.write(things[i] + " "); }
+
+//  var things = new
+// Array("chair","table","door","apple","wall");
+//  things.splice(2);
+
+//  for(var i=0; i<things.length; i++)
+//  { document.write(things[i] + " "); }
+
+//  var things = new
+// Array("chair","table","door","apple","wall");
+//  things.pop();
+//  for(var i=0; i<things.length; i++)
+//  { document.write(things[i] + " "); } 
+// w?atching)"
+
+// var username =+prompt( "Your Name Please","SUMERA")
+// var user = "SUMERA"
+// var fuser = "SUMERA"
+// var originalNum = 23;
+// var n;
+//  var newNum = num++;
+// ewNum = originalNum + 7
+// {document.write("originalNum") + newNum}
+
+
+//  var num = 10;
+//  var popularNumber = num + 200;
+
+//  var num = 1
+
+
+// var username = "Sumaira";
+// console.log(username)
+// var username =prompt ("Your Name please", "Sumera")
+// var username = "sumera"
+// if(username == "sumera"){
+//     console.log("thanks for joining")
+// }
+    
+//  elareed"){se(username == "F
+ 
+//     console.log("not defind")
+//  } 
+//  else if(username == "humera"){
+//     console.log("sleeping")}
+//  var originalNum = 23;
+//  var newNum = originalNum + 7
+//     console.log("223 + 7")
+
+// // task 05 \\
+
+// calculate date of birth
+
+// function Calculate_age() {
+//    var birth_date = new Date 
+//    {document.getElementById("birth_date") + value};
+//    var output_value = document.getElementById("birth_date") + value;
+//    document.getElementById
+
+// calculate age
+
+//   calculationage (userBirthdate)
+//   {
+//    var current = new Date()
+//    var Myage = current-userBirthdate
+//    return Myage/(1000*60*60*24*365.25)}
+//    var MyDOB = new Date("january 07,1994 05:00")
+//    var Myage = calculationage(MyDOB)
+//    console.log(Myage)
+//    capitaization
+
+
+   
+
+//    function capitalLetter() {
+//       // taking user input
+//       let userInput = prompt('Enter', 'name');
+//       // capitalizing initial letter and Lower Case other letters
+//       let firstLetter = userInput.charAt(0).toUpperCase() + userInput.slice(1).toLowerCase();
+//       console.log('Initial letter is capitalized of ' + firstLetter);
+//   }
+//   // calling function
+//   capitalLetter();
+
+
+// generate OTP
+// function generateOTP()
+// {
+//    var OTP = (Math.random()*4234)*(Math.floor(Math.random()*342468));
+//    console.log(OTP);
+
+// }
+// generateOTP()
+// var myOTP = generateOTP()
+// console.log(myOTP)
 
 
 
+// // function leapyear()
+// {
+// let x ;
+// x = prompt("Enter current year");
+// if(x%4==0) {
+//    alert("Leap year" , x);
+// }else {
+//    alert("NOT Leap year" ,)
+// }
+// }
+// leapyear()
 
+// var user = "sumera"
+// switch(user){
+// case"sumera":
+// console.log("yes")}
+// break ;
+// case"RAbbia";{
+// console.log("happy")}
+// break ;
+// case"humaira";
+// console.log("yes")
+/* <h1>Hello</h1>
+function mymouse(){
+    console.log("mouse event")} */
 
+//  LEAP YEAR
 
+//     function comingLeapYear() {
+//       let currentYear = new Date().getFullYear()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//     if (nationality == "pakistani" || Nationality == "indian" ) {
-//         if (Gender== "male" && Age > 18) {
-//           alert ("You are eligible to vote");
-//         }else if (Gender=="female" && age > 18) {
-//           var maritalStatus = prompt("Enter your marital status");
-//           if (maritalStatus=="married") {
-//             alert ("You are eligible to vote");
-//           } else {
-//             alert ("You are not eligible to vote");
-//           } 
-//         }else {
-//           alert ("You are not eligible to vote");
-//         }
+//       for (let i = currentYear; i <= currentYear + 10; i++) {
+//           if (i % 4 === 0 && (i % 100 != 0 || i % 400 === 0)) {
+//               console.log('Current year ' + i + ' is a leap year')
+//           }
+//          //  else {
+//          //      console.log('Current year ' + i + ' is not a leap year')
+//          //  }
 //       }
+//   }
+
+//   comingLeapYear()
+
+
+
+
+
+
+
+
+
